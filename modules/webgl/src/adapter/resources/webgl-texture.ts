@@ -884,6 +884,7 @@ export class WEBGLTexture extends Texture<WEBGLTextureProps> {
       data,
       parameters = {}
     } = options;
+      console.log('in setImageData3D', options);
 
     this.trackDeallocatedMemory('Texture');
 
